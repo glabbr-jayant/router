@@ -1,0 +1,36 @@
+.add-address {
+  background-color: #f8f9fa;
+  padding: 2%;
+  border-radius: 0px 5px 5px 0px;
+  min-width: 250px;
+}
+.add-address h3 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 400;
+}
+.main-content{
+  margin: auto;
+}
+.company__info{
+  border-radius: 5px 0px 0px 5px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width : 767px){
+  .company__info{
+    min-width: 250px;
+    border-radius: 5px 5px 0px 0px;
+    display: block;
+    padding: 20px 0px;
+  }
+  .add-address{
+    border-radius: 0px 0px 5px 5px;
+  }
+}
+
+.company__logo{
+  margin: auto;
+}
+
